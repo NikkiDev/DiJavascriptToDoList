@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
+body {
+  min-height: 100vh;
+  background-color: #e07a5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 50%;
+  min-height: 500px;
+  background-color: #f4f1de;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 1.1rem;
+}
+
+.add-btn {
+  color: #f2cc8f;
+  height: 40px;
+  border: none;
+}
+
+.add-btn:hover {
+  background-color: #f2cc8f;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.task-container {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #e07a5f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+.dot {
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  color: #e07a5f;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.completed {
+  margin-top: 20px;
+}
